@@ -589,7 +589,7 @@ a {
 /**************************************
   MEDIA 
 **************************************/
-
+/*
 @media screen and (min-width: 1400px) {
   .block {
     width: calc(20% - 4px);
@@ -631,7 +631,7 @@ a {
   #loaded {
     width: calc(100% - 100px);
   }
-}
+}*/
 /*
 @media screen and (max-width: 500px) {
   #container {
