@@ -425,7 +425,7 @@ path {
   position: fixed;
   left: 0;
   top: -2px;
-  overflow: scroll;
+  /*overflow: scroll;*/
   height: calc(100vh - 60px);
   padding: 0;
   background-color: #eaeaea;
@@ -668,8 +668,4 @@ a {
     float: none;
     text-align: center;
   }
-
-#container.sidebar {
-  width: 100px;
-  overflow: hidden;
 }
