@@ -589,7 +589,7 @@ a {
 /**************************************
   MEDIA 
 **************************************/
-/*
+
 @media screen and (min-width: 1400px) {
   .block {
     width: calc(20% - 4px);
@@ -608,7 +608,7 @@ a {
   #container {
     width: 85%;
   }
-
+/*
   .block {
     width: calc(50% - 4px);
     padding-top: calc(50% - 4px);
