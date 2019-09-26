@@ -462,8 +462,7 @@ path {
 
 #load-content {
   height: 100vh;
-/*  overflow: hidden;*/
-
+  overflow: hidden;
 }
 
 
@@ -512,7 +511,7 @@ a {
   float: left;
   background-color: #2f2f2f;
   position: fixed;
-  /*overflow-y: scroll;*/
+  overflow-y: scroll;
   background-size: cover;
   background-position: center;
   color: white;
@@ -524,10 +523,10 @@ a {
   font-family:"Nexa";
   font-weight: 100;
 }
-
+/*
 .content-side::-webkit-scrollbar { 
   width: 0px;
-}
+}*/
 
 .content-bio {
   padding: 20px 20px 0px 20px;
@@ -597,7 +596,7 @@ a {
     padding-top: calc(20% - 4px);
   }
 }
-
+/*
 @media screen and (max-width: 1100px) {
   .block {
     width: calc(33.3333% - 4px);
@@ -632,7 +631,7 @@ a {
   #loaded {
     width: calc(100% - 100px);
   }
-}/*/
+}*//*/
 /*
 @media screen and (max-width: 500px) {
   #container {
