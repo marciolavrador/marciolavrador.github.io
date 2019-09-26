@@ -542,7 +542,7 @@ a {
 .content-side + .content-main {
   float: right;
 }
-
+/*
 .content-main a::after {
   content: "";
   display: block;
@@ -556,7 +556,7 @@ a {
   -moz-transition: all 0.25s;
   transition: all 0.25s;
 }
-
+*/
 .content-main a:hover::after {
   width: 100%;
 }
@@ -589,13 +589,13 @@ a {
 /**************************************
   MEDIA 
 **************************************/
-
+/*
 @media screen and (min-width: 1400px) {
   .block {
     width: calc(20% - 4px);
     padding-top: calc(20% - 4px);
   }
-}
+}*/
 /*
 @media screen and (max-width: 1100px) {
   .block {
