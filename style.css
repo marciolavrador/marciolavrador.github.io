@@ -425,7 +425,7 @@ path {
   position: fixed;
   left: 0;
   top: -2px;
-  /*overflow: scroll;*/
+  overflow: scroll
   height: calc(100vh - 60px);
   padding: 0;
   background-color: #eaeaea;
@@ -511,7 +511,7 @@ a {
   float: left;
   background-color: #2f2f2f;
   position: fixed;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   background-size: cover;
   background-position: center;
   color: white;
