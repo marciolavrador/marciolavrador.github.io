@@ -462,7 +462,8 @@ path {
 
 #load-content {
   height: 100vh;
-  overflow: hidden;
+/*  overflow: hidden;*/
+
 }
 
 
