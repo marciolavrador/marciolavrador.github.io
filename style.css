@@ -461,7 +461,7 @@ path {
 }
 
 #load-content {
-  #height: 100vh;
+  height: 100vh;
   #overflow: hidden;
 }
 
@@ -507,7 +507,7 @@ a {
 
 .content-side {
   width: 22%;
-  #height: 100vh;
+  height: 100vh;
   #float: left;
   background-color: #2f2f2f;
   position: fixed;
@@ -533,8 +533,8 @@ a {
 }
 .content-main {
   width: 78%;
-  #min-height: 100vh;
-  #float: left;
+  min-height: 100vh;
+  float: left;
   padding-top: 48px;
   box-sizing: border-box;
 }
@@ -546,7 +546,7 @@ a {
 .content-main a::after {
   content: "";
   display: block;
-  #position: absolute;
+  position: absolute;
   width: 0;
   height: 3px;
   background-color: #DA635D;
