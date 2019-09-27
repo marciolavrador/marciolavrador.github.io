@@ -546,7 +546,7 @@ a {
 .content-main a::after {
   content: "";
   display: block;
-  position: absolute;
+  #position: absolute;
   width: 0;
   height: 3px;
   background-color: #DA635D;
