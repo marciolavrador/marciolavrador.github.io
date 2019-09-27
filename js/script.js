@@ -19,24 +19,24 @@ $(document).ready(function() {
     	$(this).delay(500 + 1000 * Math.random()).fadeTo(750, 1);
     });
 
-	// menu functionality
-    $("#header nav li a[id$='-link']").click(function(e) {
-    	e.preventDefault();
+	// // menu functionality
+ //    $("#header nav li a[id$='-link']").click(function(e) {
+ //    	e.preventDefault();
 
-    	var name = $(this).attr("id").split("-")[0];
+ //    	var name = $(this).attr("id").split("-")[0];
 
-    	$("#header nav li a").removeClass("active");
-	   	$(this).addClass("active");
+ //    	$("#header nav li a").removeClass("active");
+	//    	$(this).addClass("active");
 
-    	if (name == "all") {
-    		$("div[class^='block']").animate({"opacity": 1}, 250)
-    	}
+ //    	if (name == "all") {
+ //    		$("div[class^='block']").animate({"opacity": 1}, 250)
+ //    	}
 
-    	else {
-	    	$("div[class^='block']").not(".block-" + name).animate({"opacity": 0.2}, 250)
-	    	$(".block-" + name).animate({"opacity": 1}, 250)
-	    }
-	});
+ //    	else {
+	//     	$("div[class^='block']").not(".block-" + name).animate({"opacity": 0.2}, 250)
+	//     	$(".block-" + name).animate({"opacity": 1}, 250)
+	//     }
+	// });
 
     // content functionality
     $("#load-content").hide();
