@@ -426,7 +426,7 @@ path {
   left: 0;
   top: -2px;
   overflow: scroll
-  height: calc(100vh - 60px);
+  #height: calc(100vh - 60px);
   padding: 0;
   background-color: #eaeaea;
 
@@ -454,7 +454,7 @@ path {
 
 #loaded {
   width: calc(100% - 100px);
-  height: calc(100vh - 76px);
+  #height: calc(100vh - 76px);
   position: fixed;
   right: 0;
   bottom: 0;
@@ -619,7 +619,7 @@ a {
   }
 
   .content-side {
-    height: auto;
+    #height: auto;
     width: 100%;
     position: relative;
   }
