@@ -462,7 +462,7 @@ path {
 
 #load-content {
   height: 100vh;
-  #overflow: hidden;
+  overflow: hidden;
 }
 
 
@@ -508,7 +508,7 @@ a {
 .content-side {
   width: 22%;
   height: 100vh;
-  #float: left;
+  float: left;
   background-color: #2f2f2f;
   position: fixed;
   overflow-y: scroll;
@@ -540,7 +540,7 @@ a {
 }
 
 .content-side + .content-main {
-  #float: right;
+  float: right;
 }
 
 .content-main a::after {
@@ -669,6 +669,5 @@ a {
   }
 }
 
-/*
+
 html, body {min-height:100%; height:100%; overflow-x:hidden; display:block;}
-*/
