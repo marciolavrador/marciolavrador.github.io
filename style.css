@@ -430,10 +430,10 @@ path {
   background-color: #eaeaea;
 
 }
-
+/*
 #container.sidebar::-webkit-scrollbar { 
   width: 0px;
-}
+}*/
 
 #container.sidebar .block {
   width: 100%;
