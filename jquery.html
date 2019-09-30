@@ -19,21 +19,21 @@ $(document).ready(function() {
   $("a[id^=block-link-]").click(function(e) {
       e.preventDefault();
 
-      $(".block").removeClass("active");
-      var block = $(this).find($(".block"))[0];
-      $(block).addClass("active");
+      //$(".block").removeClass("active");
+      //var block = $(this).find($(".block"))[0];
+      //$(block).addClass("active");
 
 
       $("#container").addClass("sidebar");
       //$("#block-link-about").show(0);
       //$("#block-link-about").animate({"opacity": 1}, 250);
-      var parsed = this.id.split("-")[2];
-    var insert = "<object id='loaded' type='text/html' data='pages/" + parsed + ".html'></object>";
-    $("#load-content").queue(function() { $(this).html(insert).dequeue(); });
-    $("#load-content").delay(50).animate({"opacity": 1}, 250);
+     // var parsed = this.id.split("-")[2];
+    //var insert = "<object id='loaded' type='text/html' data='pages/" + parsed + ".html'></object>";
+    //$("#load-content").queue(function() { $(this).html(insert).dequeue(); });
+    //$("#load-content").delay(50).animate({"opacity": 1}, 250);
 
-    $(".close-container").show(0);
-    $(".close-container").delay(250).animate({"opacity": 1}, 250);
+    //$(".close-container").show(0);
+    //$(".close-container").delay(250).animate({"opacity": 1}, 250);
   });
 
 });
