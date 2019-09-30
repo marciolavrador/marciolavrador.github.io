@@ -16,6 +16,30 @@
 
 $(document).ready(function() {
 
+
+  // preload pages and images
+  //$("a[id^=block-link-]").each(function(i, val) {
+  //  var page = val.href.split("/")[8];
+  //  var insert = "<object id='loaded' type='text/html' data='pages/" + page + "'></object>";
+  //  $("#load-content").html(insert);
+  //});
+  //$("#load-content").html("");
+
+  // load menu animation
+  $("#header").css("margin-top", "-76px");
+  $("#header").animate({ marginTop: "0px" }, 500);
+  
+  $("#header-alt").hide(0);
+
+  // load blocks animation
+  $(".block").hide(0);
+  $(".block").each(function(i, e) {
+      $(this).delay(500 + 1000 * Math.random()).fadeTo(750, 1);
+    });
+
+
+
+
   $("a[id^=block-link-]").click(function(e) {
       e.preventDefault();
 
@@ -36,12 +60,38 @@ $(document).ready(function() {
     //$(".close-container").delay(250).animate({"opacity": 1}, 250);
   });
 
+
+
 });
+
 </script> 
 </head>
 
 <body>
-
+<div id="header">
+      <div class="header-container">
+        <div class="logo home-link">
+           Marcio Cardoso
+        </div>
+        <!-- <nav style="visibility: false">
+          <li>
+            <a href="#" id="about-link">About</a>
+          </li>
+          <li>
+            <a href="#" id="projects-link">Projects</a>
+          </li>
+          <li>
+            <a href="#" id="contact-link">Contact</a>
+          </li>
+        </nav>
+ -->
+        <div class="close-container home-link">
+          <a href="#">
+            <img src="images/x.png"/>
+          </a>
+        </div>
+      </div>
+    </div>
 <div id="container" class="">
 
       <a href="pages/about.html" id="block-link-about">
