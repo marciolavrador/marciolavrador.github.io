@@ -1,12 +1,14 @@
 $(document).ready(function() {
 
 	// preload pages and images
-	$("a[id^=block-link-]").each(function(i, val) {
-		var page = val.href.split("/")[8];
-		var insert = "<object id='loaded' type='text/html' data='pages/" + page + "'></object>";
- 		$("#load-content").html(insert);
-	});
-	$("#load-content").html("");
+	#$("a[id^=block-link-]").each(function(i, val) {
+	#	var page = val.href.split("/")[8];
+	#	var insert = "<object id='loaded' type='text/html' data='pages/" + page + "'></object>";
+ 	#	//$("#load-content").html(insert);
+  #
+  #  $("#load-content").load('pages/' + page + '.html');
+	#});
+	#$("#load-content").html("");
 
 	// load menu animation
 	$("#header").css("margin-top", "-76px");
@@ -58,6 +60,7 @@ $(document).ready(function() {
  		var parsed = this.id.split("-")[2];
  		var insert = "<object id='loaded' type='text/html' data='pages/" + parsed + ".html'></object>";
  		$("#load-content").queue(function() { $(this).html(insert).dequeue(); });
+    //$("#load-content").queue(function() { $(this).load('pages/' + parsed + '.html').dequeue(); });
 		$("#load-content").delay(50).animate({"opacity": 1}, 250);
 
 		$(".close-container").show(0);
