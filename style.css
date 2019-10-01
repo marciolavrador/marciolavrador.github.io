@@ -469,7 +469,7 @@ path {
 #loaded {
   height: 1200px !important; 
   #left: 100px; 
-  #top: 76px; 
+  top: 76px; 
   #position: absolute; 
   #calc(100vh - 76px);
   z-index:100;
