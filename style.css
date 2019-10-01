@@ -472,7 +472,7 @@ path {
   #top: 76px; 
   #position: fixed; 
   #calc(100vh - 76px);
-  z-index:100;
+  #z-index:100;
 }
 /*****************/
 
