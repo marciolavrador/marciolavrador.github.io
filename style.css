@@ -467,17 +467,12 @@ path {
 
 /* Short trying solve mobile navigation problem*/
 #loaded {
-  #height: 1200px !important; 
+  height: 100vh !important; 
   left: 100px; 
   top: 76px; 
-  position: absolute; 
+  position: fixed; 
   #calc(100vh - 76px);
   z-index:100;
-}
-
-#load-content {
-  #height: 2400px !important;
-  overflow: hidden;
 }
 /*****************/
 
