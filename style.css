@@ -468,9 +468,9 @@ path {
 /* Short trying solve mobile navigation problem*/
 #loaded {
   height: 1200px !important; 
-  #left: 100px; 
+  left: 100px; 
   top: 76px; 
-  #position: absolute; 
+  position: absolute; 
   #calc(100vh - 76px);
   z-index:100;
 }
