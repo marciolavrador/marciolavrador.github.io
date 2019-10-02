@@ -125,6 +125,14 @@ nav li a::after {
   transition: all 0.25s;
 }
 
+a {
+  color: #DA635D;
+  text-decoration: none;
+  position: relative;
+  font-weight: 300;
+}
+
+
 
 /**************************************
   FILTER
@@ -258,7 +266,6 @@ nav li a#info-link::after {
   color: #ECF0F1;
 }
 
-/* Base Block */
 .block {
   width: calc(20% - 4px);
   margin: 2px;
@@ -274,6 +281,11 @@ nav li a#info-link::after {
   -webkit-transition: background-color 0.25s;
   -moz-transition: background-color 0.25s;
   transition: background-color 0.25s;
+
+  border-radius: 22px 22px 22px 22px;
+  -moz-border-radius: 22px 22px 22px 22px;
+  -webkit-border-radius: 22px 22px 22px 22px;
+  border: 0px solid #000000;
 }
 
 
