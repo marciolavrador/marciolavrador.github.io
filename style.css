@@ -266,6 +266,7 @@ nav li a#info-link::after {
   color: #ECF0F1;
 }
 
+/* Base Block */
 .block {
   width: calc(20% - 4px);
   margin: 2px;

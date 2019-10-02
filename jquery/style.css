@@ -74,6 +74,7 @@
 .blocks-container {
   float: center;
   margin:0 auto;
+  padding-left: 2vw;
 }
 
 .blocks-container:hover {
@@ -139,33 +140,41 @@ body {
 
 /************* MEDIA************************/
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 801px) {
   .block {
     width: calc(20% - 4px);
     height: calc(20% - 4px);
   }
 }
 
-@media screen and (max-width: 1200) {
+@media screen and (max-width: 800px) {
   .block {
     width: calc(33.3333% - 4px);
-    padding-top: calc(33.3333% - 4px);
+    height: calc(33.3333% - 4px);
   }
 }
 
 
-@media screen and (max-width: 800) {
+@media screen and (max-width: 500px) {
   .block {
-    width: calc(50% - 4px);
-    padding-top: calc(50% - 4px);
+    width: calc(45vw - 4px);
   }
 
   .blocks-container {
-    height: 10vh;
     width: 100%;
-    min-width: 58px;
+    min-width: 42px;
+    min-height: 42px;
     position: absolute;
-    display: grid;
+    display: block;
+    overflow:scroll;
+  }
+  .blocks-container:hover {
+    height: 100%;
+    width: 100%;
+    min-width: 42px;
+    min-height: 42px;
+    position: absolute;
+    display: block;
     overflow:scroll;
   }
 }
