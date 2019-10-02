@@ -76,8 +76,10 @@
   margin:0 auto;
 }
 
-.blocks-container {
+.blocks-container:hover {
   height: 90vh;
+  width:10vw;
+  min-width: 58px;
   position: absolute;
   display: grid;
   overflow:scroll;
@@ -85,8 +87,8 @@
 
 .block {
   position: relative;
-    min-width: 120px;
-  min-height: 120px;
+  min-width: 56px;
+  min-height: 56px;
   
   margin: 2px;
   height: 0;
@@ -126,13 +128,7 @@ body {
     background-color: #eaeaea;
     border: 1px solid #000000;
     cursor: mouse;
-    border-radius: 5px 5px 5px 5px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
 
-    -webkit-transition: background-color 0.25s;
-    -moz-transition: background-color 0.25s;
-    transition: background-color 0.25s;
 }
     
 .header-container > .logo {
@@ -146,8 +142,7 @@ body {
 @media screen and (min-width: 1201px) {
   .block {
     width: calc(20% - 4px);
-    #height: calc(20% - 4px);
-    height: width;
+    height: calc(20% - 4px);
   }
 }
 
@@ -155,7 +150,6 @@ body {
   .block {
     width: calc(33.3333% - 4px);
     padding-top: calc(33.3333% - 4px);
-    #height: width;
   }
 }
 
@@ -164,6 +158,14 @@ body {
   .block {
     width: calc(50% - 4px);
     padding-top: calc(50% - 4px);
-    #height: width;
+  }
+
+  .blocks-container {
+    height: 10vh;
+    width: 100%;
+    min-width: 58px;
+    position: absolute;
+    display: grid;
+    overflow:scroll;
   }
 }
